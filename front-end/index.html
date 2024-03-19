@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
     <script
       src="https://kit.fontawesome.com/fa03cb6e5b.js"
       crossorigin="anonymous"
@@ -16,41 +20,45 @@
 
   <body>
     <header>
-      <section class="informacoes">
+      <section class="information">
         <div class="container">
           <p>Precisa de ajuda? fale conosco (99) 9 9999-9999</p>
-          <div class="funcionalidades">
-            <div>
+          <div class="functionalities">
+            <a>
               <i class="fa-solid fa-location-dot"></i>
               Lojas perto de você!
-            </div>
-            <div>
+            </a>
+            <a>
               <i class="fa-solid fa-truck-fast"></i>
               Acompanhe sua encomenda.
-            </div>
+            </a>
           </div>
         </div>
       </section>
-      <section class="cabecalho">
+      <section class="header">
         <div class="container">
-          <img src="/front-end/assets/logo.png" alt="Logo da Electron" />
-          <form action="">
-            <input type="text" />
-            <input type="submit" value="" />
-          </form>
-          <div class="funcionalidades">
             <div>
+                <img src="/front-end/assets/logo.png" alt="Logo da Electron" />
+                <form action="" class="search">
+                  <input type="text" placeholder="Pesquisar"/>
+                  <button type="submit">
+                      <i class="fa-solid fa-magnifying-glass"></i>    
+                  </button>
+                </form>
+            </div>
+          <div class="functionalities">
+            <a>
               <i class="fa-solid fa-user"></i>
               Entrar
-            </div>
-            <div>
+            </a>
+            <a>
               <i class="fa-solid fa-heart"></i>
               Favoritos
-            </div>
-            <div>
+            </a>
+            <a>
               <i class="fa-solid fa-cart-shopping"></i>
               Carrinho
-            </div>
+            </a>
           </div>
         </div>
       </section>

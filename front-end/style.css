@@ -9,3 +9,84 @@
   --yellow: #E2FF00;
   --gray: #282E31;
 }
+
+body{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  font-family: "Poppins", sans-serif;
+  color: var(--gray);
+}
+
+header{
+  width: 100%;
+}
+
+.information{
+  width: 100%;
+  
+}
+
+.container{
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.information .container{
+  font-size: 14px;
+
+  padding: 20px 0;
+}
+
+.functionalities{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header{
+  background-color: var(--blue);
+}
+.header .container{
+  padding: 20px;
+  color: white;
+}
+.header .container img{
+width: 200px;
+}
+
+.header .container div{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search{
+  background-color: white;
+  border-radius: 20px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.search input{
+  margin: 0 20px;
+  border: none;
+  font-size: 14px;
+}
+
+.search button{
+  background-color: var(--yellow);
+  border: none;
+  border-radius: 20px;
+  height: 100%;
+  padding: 0 30px;
+  cursor: pointer;
+}
