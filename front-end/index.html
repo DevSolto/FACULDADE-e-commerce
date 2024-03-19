@@ -1,552 +1,376 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <script
-      src="https://kit.fontawesome.com/fa03cb6e5b.js"
-      crossorigin="anonymous"
-    ></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/fa03cb6e5b.js" crossorigin="anonymous"></script>
 
-    <title>Document</title>
-  </head>
+  <link rel="stylesheet" href="style.css" />
 
-  <body>
-    <header>
-      <section class="information">
-        <div class="container">
-          <p>Precisa de ajuda? fale conosco (99) 9 9999-9999</p>
-          <div class="functionalities">
-            <a>
-              <i class="fa-solid fa-location-dot"></i>
-              Lojas perto de você!
-            </a>
-            <a>
-              <i class="fa-solid fa-truck-fast"></i>
-              Acompanhe sua encomenda.
-            </a>
-          </div>
-        </div>
-      </section>
-      <section class="header">
-        <div class="container">
-            <div>
-                <img src="/front-end/assets/logo.png" alt="Logo da Electron" />
-                <form action="" class="search">
-                  <input type="text" placeholder="Pesquisar"/>
-                  <button type="submit">
-                      <i class="fa-solid fa-magnifying-glass"></i>    
-                  </button>
-                </form>
-            </div>
-          <div class="functionalities">
-            <a>
-              <i class="fa-solid fa-user"></i>
-              Entrar
-            </a>
-            <a>
-              <i class="fa-solid fa-heart"></i>
-              Favoritos
-            </a>
-            <a>
-              <i class="fa-solid fa-cart-shopping"></i>
-              Carrinho
-            </a>
-          </div>
-        </div>
-      </section>
-      <section class="menu">
-        <div class="container">
-          <nav>
-            <a href="">Categorias</a>
-            <a href="">Ofertas do dia</a>
-            <a href="">Histórico</a>
-            <a href="">Catalogo</a>
-          </nav>
-        </div>
-      </section>
-    </header>
-    <section class="content">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <section class="information">
       <div class="container">
-        <aside>
-          <div class="filtro">
-            <div class="title">
-              <p>Categoria</p>
-              <p class="Reset">Reset</p>
-            </div>
-            <div class="itens">
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Todas as categorias
-                </div>
-                <span>10</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Tablet
-                </div>
-                <span>6</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Laptop
-                </div>
-                <span>2</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Headphones
-                </div>
-                <span>4</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Console
-                </div>
-                <span>6</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Outras
-                </div>
-                <span>15</span>
-              </div>
-            </div>
-          </div>
-          <div class="filtro">
-            <div class="title">
-              <p>Marca</p>
-              <p class="Reset">Reset</p>
-            </div>
-            <div class="itens">
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Todas as marcas
-                </div>
-                <span>10</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Xiaomi
-                </div>
-                <span>10</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Samsung
-                </div>
-                <span>10</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Apple
-                </div>
-                <span>10</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  LG
-                </div>
-                <span>10</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Accer
-                </div>
-                <span>10</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Outras
-                </div>
-                <span>10</span>
-              </div>
-            </div>
-          </div>
-          <div class="filtro">
-            <div class="title">
-              <p>Disponibilidade</p>
-              <p class="Reset">Reset</p>
-            </div>
-            <div class="itens">
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Todas as disponibilidades
-                </div>
-                <span>10</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Em estoque
-                </div>
-                <span>10</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Pronta entrega
-                </div>
-                <span>10</span>
-              </div>
-            </div>
-          </div>
-          <div class="filtro">
-            <div class="title">
-              <p>Preço</p>
-              <p class="Reset">Reset</p>
-            </div>
-            <div class="itens">
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Até R$ 650
-                </div>
-                <span>10</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  R$650 a R$1.000
-                </div>
-                <span>10</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Mais de R$1.000
-                </div>
-                <span>10</span>
-              </div>
-              <div class="item">
-                <form action="">
-                  <input type="number" name="" id="" placeholder="Mínimo" />
-                  -
-                  <input type="number" name="" id="" placeholder="Máximo" />
-                  <button type="submit">
-                    <i class="fa-solid fa-arrow-right"></i>
-                  </button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </aside>
-        <main>
-          <div>
-            <i class="fa-regular fa-heart"></i>
-            <img src="/front-end/assets/notebook1.png" alt="" />
-            <div class="stars">
-                4,6
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <div class="price">
-                <p class="old-price">R$7.999</p>
-                <p class="current-price">
-                    R$6.307 <span>21% OFF <br> em 10x R$630,74 sem juros</span>
-                </p>
-            </div>
-          <div>
-            <i class="fa-regular fa-heart"></i>
-            <img src="/front-end/assets/notebook1.png" alt="" />
-            <div class="stars">
-                4,6
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <div class="price">
-                <p class="old-price">R$7.999</p>
-                <p class="current-price">
-                    R$6.307 <span>21% OFF <br> em 10x R$630,74 sem juros</span>
-                </p>
-            </div>
-          <div>
-            <i class="fa-regular fa-heart"></i>
-            <img src="/front-end/assets/notebook1.png" alt="" />
-            <div class="stars">
-                4,6
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <div class="price">
-                <p class="old-price">R$7.999</p>
-                <p class="current-price">
-                    R$6.307 <span>21% OFF <br> em 10x R$630,74 sem juros</span>
-                </p>
-            </div>
-          <div>
-            <i class="fa-regular fa-heart"></i>
-            <img src="/front-end/assets/notebook1.png" alt="" />
-            <div class="stars">
-                4,6
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <div class="price">
-                <p class="old-price">R$7.999</p>
-                <p class="current-price">
-                    R$6.307 <span>21% OFF <br> em 10x R$630,74 sem juros</span>
-                </p>
-            </div>
-          <div>
-            <i class="fa-regular fa-heart"></i>
-            <img src="/front-end/assets/notebook1.png" alt="" />
-            <div class="stars">
-                4,6
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <div class="price">
-                <p class="old-price">R$7.999</p>
-                <p class="current-price">
-                    R$6.307 <span>21% OFF <br> em 10x R$630,74 sem juros</span>
-                </p>
-            </div>
-          <div>
-            <i class="fa-regular fa-heart"></i>
-            <img src="/front-end/assets/notebook1.png" alt="" />
-            <div class="stars">
-                4,6
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <div class="price">
-                <p class="old-price">R$7.999</p>
-                <p class="current-price">
-                    R$6.307 <span>21% OFF <br> em 10x R$630,74 sem juros</span>
-                </p>
-            </div>
-          <div>
-            <i class="fa-regular fa-heart"></i>
-            <img src="/front-end/assets/notebook1.png" alt="" />
-            <div class="stars">
-                4,6
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <div class="price">
-                <p class="old-price">R$7.999</p>
-                <p class="current-price">
-                    R$6.307 <span>21% OFF <br> em 10x R$630,74 sem juros</span>
-                </p>
-            </div>
-          <div>
-            <i class="fa-regular fa-heart"></i>
-            <img src="/front-end/assets/notebook1.png" alt="" />
-            <div class="stars">
-                4,6
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <div class="price">
-                <p class="old-price">R$7.999</p>
-                <p class="current-price">
-                    R$6.307 <span>21% OFF <br> em 10x R$630,74 sem juros</span>
-                </p>
-            </div>
-          <div>
-            <i class="fa-regular fa-heart"></i>
-            <img src="/front-end/assets/notebook1.png" alt="" />
-            <div class="stars">
-                4,6
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <div class="price">
-                <p class="old-price">R$7.999</p>
-                <p class="current-price">
-                    R$6.307 <span>21% OFF <br> em 10x R$630,74 sem juros</span>
-                </p>
-            </div>
-          <div>
-            <i class="fa-regular fa-heart"></i>
-            <img src="/front-end/assets/notebook1.png" alt="" />
-            <div class="stars">
-                4,6
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <div class="price">
-                <p class="old-price">R$7.999</p>
-                <p class="current-price">
-                    R$6.307 <span>21% OFF <br> em 10x R$630,74 sem juros</span>
-                </p>
-            </div>
-          <div>
-            <i class="fa-regular fa-heart"></i>
-            <img src="/front-end/assets/notebook1.png" alt="" />
-            <div class="stars">
-                4,6
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <div class="price">
-                <p class="old-price">R$7.999</p>
-                <p class="current-price">
-                    R$6.307 <span>21% OFF <br> em 10x R$630,74 sem juros</span>
-                </p>
-            </div>
-          <div>
-            <i class="fa-regular fa-heart"></i>
-            <img src="/front-end/assets/notebook1.png" alt="" />
-            <div class="stars">
-                4,6
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <div class="price">
-                <p class="old-price">R$7.999</p>
-                <p class="current-price">
-                    R$6.307 <span>21% OFF <br> em 10x R$630,74 sem juros</span>
-                </p>
-            </div>
-          </div>
-        </main>
+        <p>Precisa de ajuda? fale conosco (99) 9 9999-9999</p>
+        <div class="functionalities">
+          <a>
+            <i class="fa-solid fa-location-dot"></i>
+            Lojas perto de você!
+          </a>
+          <a>
+            <i class="fa-solid fa-truck-fast"></i>
+            Acompanhe sua encomenda.
+          </a>
+        </div>
       </div>
     </section>
-    <footer>
-        <div class="container">
-            <div class="contact">
-                <p>Se inscreva na nossa newsletter</p>
-                <form action="">
-                    <input type="text" name="" id="">
-                    <button type="submit">
-                        <i class="fa-solid fa-paper-plane"></i>
-                    </button>
-                </form>
-                <div class="contact-us">
-                    <i class="fa-solid fa-headphones-simple"></i>
-                    Ligue para: <br> +55 (99) 9 9999-9999
-                </div>
-            </div>
-            <div class="footer">
-                <div>
-                    <img src="/front-end/assets/logo.png" alt="">
-                    <p>R. do Pombal, 57 - Santo Amaro, Recife - PE, 50100-170</p>
-                    <div class="separator"></div>
-                    <div class="social-media">
-                        <a href="">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-                        <a href="">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                        <a href="">
-                            <i class="fa-brands fa-whatsapp"></i>
-                        </a>
-                    </div>
-                    <div>
-                        <p>Encontrar produto</p>
-                        <ul>
-                            <li>
-                                Tablet
-                            </li>
-                            <li>
-                                Laptop
-                            </li>
-                            <li>
-                                Headphones
-                            </li>
-                            <li>
-                                Console
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <p>Buscar ajuda</p>
-                        <ul>
-                            <li>
-                                Sobe nos
-                            </li>
-                            <li>
-                                Fale conosco
-                            </li>
-                            <li>
-                                Politica de devolução
-                            </li>
-                            <li>
-                                Politica de privacidade
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <p>Sobre nos</p>
-                        <ul>
-                            <li>
-                                Noticias
-                            </li>
-                            <li>
-                                Serviços
-                            </li>
-                            <li>
-                                Atendimento ao consumidor
-                            </li>
-                            <li>
-                                FAC
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                
-            </div>
+    <section class="header">
+      <div class="container">
+        <div>
+          <img src="/front-end/assets/logo.png" alt="Logo da Electron" />
+          <form action="" class="search">
+            <input type="text" placeholder="Pesquisar" />
+            <button type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
         </div>
-    </footer>
-  </body>
+        <div class="functionalities">
+          <a>
+            <i class="fa-solid fa-user"></i>
+            Entrar
+          </a>
+          <a>
+            <i class="fa-solid fa-heart"></i>
+            Favoritos
+          </a>
+          <a>
+            <i class="fa-solid fa-cart-shopping"></i>
+            Carrinho
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="menu">
+      <div class="container">
+        <nav>
+          <a href="">Categorias</a>
+          <a href="">Ofertas do dia</a>
+          <a href="">Histórico</a>
+          <a href="">Catalogo</a>
+        </nav>
+      </div>
+    </section>
+  </header>
+  <section class="path">
+    <div class="container">
+      <p>
+        Produtos > todas as categorias
+      </p>
+    </div>
+  </section>
+  <section class="content">
+    <div class="container">
+      <aside>
+        <div class="filter">
+          <div class="title">
+            <p>Categoria</p>
+            <p class="reset">Reset</p>
+          </div>
+          <div class="itens">
+            <div class="item">
+              <div>
+                <input type="checkbox" checked name="" id="" />
+                Todas as categorias
+              </div>
+              <span>10</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Tablet
+              </div>
+              <span>6</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Laptop
+              </div>
+              <span>2</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Headphones
+              </div>
+              <span>4</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Console
+              </div>
+              <span>6</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Outras
+              </div>
+              <span>15</span>
+            </div>
+          </div>
+        </div>
+        <div class="divisor"></div>
+        <div class="filter">
+          <div class="title">
+            <p>Marca</p>
+            <p class="reset">Reset</p>
+          </div>
+          <div class="itens">
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Todas as marcas
+              </div>
+              <span>10</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Xiaomi
+              </div>
+              <span>10</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Samsung
+              </div>
+              <span>10</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Apple
+              </div>
+              <span>10</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                LG
+              </div>
+              <span>10</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Accer
+              </div>
+              <span>10</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Outras
+              </div>
+              <span>10</span>
+            </div>
+          </div>
+        </div>
+        <div class="divisor"></div>
+        <div class="filter">
+          <div class="title">
+            <p>Disponibilidade</p>
+            <p class="reset">Reset</p>
+          </div>
+          <div class="itens">
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Todas as disponibilidades
+              </div>
+              <span>10</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Em estoque
+              </div>
+              <span>10</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Pronta entrega
+              </div>
+              <span>10</span>
+            </div>
+          </div>
+        </div>
+        <div class="divisor"></div>
+        <div class="filter">
+          <div class="title">
+            <p>Preço</p>
+            <p class="reset">Reset</p>
+          </div>
+          <div class="itens">
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Até R$ 650
+              </div>
+              <span>10</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                R$650 a R$1.000
+              </div>
+              <span>10</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Mais de R$1.000
+              </div>
+              <span>10</span>
+            </div>
+            <div class="item">
+              <form action="">
+                <input type="number" name="" id="" placeholder="Mínimo" />
+                -
+                <input type="number" name="" id="" placeholder="Máximo" />
+                <button type="submit">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <main>
+        <div class="">
+          <i class="fa-regular fa-heart"></i>
+          <img src="/front-end/assets/notebook1.png" alt="" />
+          <div class="stars">
+            4,6
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <div class="price">
+            <p class="old-price">R$7.999</p>
+            <p class="current-price">
+              R$6.307 <span>21% OFF <br> em 10x R$630,74 sem juros</span>
+            </p>
+          </div>
+        </div>
+      </main>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="contact">
+        <p>Se inscreva na nossa newsletter</p>
+        <form action="">
+          <input type="text" name="" id="">
+          <button type="submit">
+            <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </form>
+        <div class="contact-us">
+          <i class="fa-solid fa-headphones-simple"></i>
+          Ligue para: <br> +55 (99) 9 9999-9999
+        </div>
+      </div>
+      <div class="footer">
+        <div>
+          <img src="/front-end/assets/logo.png" alt="">
+          <p>R. do Pombal, 57 - Santo Amaro, Recife - PE, 50100-170</p>
+          <div class="separator"></div>
+          <div class="social-media">
+            <a href="">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+          <div>
+            <p>Encontrar produto</p>
+            <ul>
+              <li>
+                Tablet
+              </li>
+              <li>
+                Laptop
+              </li>
+              <li>
+                Headphones
+              </li>
+              <li>
+                Console
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p>Buscar ajuda</p>
+            <ul>
+              <li>
+                Sobe nos
+              </li>
+              <li>
+                Fale conosco
+              </li>
+              <li>
+                Politica de devolução
+              </li>
+              <li>
+                Politica de privacidade
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p>Sobre nos</p>
+            <ul>
+              <li>
+                Noticias
+              </li>
+              <li>
+                Serviços
+              </li>
+              <li>
+                Atendimento ao consumidor
+              </li>
+              <li>
+                FAC
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
