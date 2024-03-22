@@ -3,11 +3,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 :root{
   --blue: #367DE3;
-  --green: #E2FF00;
+  --green: #91D500;
   --gray: #282E31;
 }
 
@@ -21,15 +22,17 @@ body{
 
   overflow-x: hidden;
 }
-input{
-  outline: none;
+section{
+  width: 100%;
 }
-
+a{
+  color: var(--gray);
+}
 header{
   width: 100%;
 }
 
-.information{
+header .information{
   width: 100%;
   
 }
@@ -57,6 +60,10 @@ header{
 
 .functionalities a{
   cursor: pointer;
+}
+
+.header a{
+  color: white;
 }
 
 .header{
@@ -94,6 +101,7 @@ width: 200px;
 
 .search button{
   background-color: var(--green);
+  color: white;
   border: none;
   border-radius: 20px;
   height: 100%;
@@ -120,6 +128,10 @@ nav{
 nav a{
   color:var(--gray);
   text-decoration: none;
+}
+
+.path{
+  font-size: 14px;
 }
 
 .content .container{
@@ -171,6 +183,10 @@ aside{
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.item button{
+  color:white;
 }
 
 .divisor{
@@ -248,6 +264,9 @@ main{
 }
 
 .favorite{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
   position: absolute;
   top: 10px;
   right: 15px;
@@ -290,73 +309,113 @@ main{
 
 footer{
   background-color: var(--blue);
+  padding: 40px 0;
 }
 
-footer .container {
-  display: flex;
+footer .container{
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   gap: 40px;
-  padding: 40px 0;
 
 }
 
 footer .contact{
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  padding: 40px 80px;
+  
+  border-radius: 20px;
+}
+
+footer .contact div{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 60px;
-  padding: 20px 40px;
-  border-radius: 20px;
-  
-  background-color: white;
 
-  -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.2);
-  -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.2);
-  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.2);
-
+  gap: 20px;
 }
 
-footer form{
+footer .contact form{
   background-color: var(--blue);
   border-radius: 20px;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
-footer form input{
+footer .contact input{
   background-color: transparent;
   margin: 0 20px;
   border: none;
-  color:white;
   font-size: 14px;
+  color: white;
+  outline: none;
 }
-footer form input::placeholder{
+
+footer .contact input::placeholder{
   color: white;
 }
 
-footer form button{
+footer .contact button{
   background-color: var(--green);
+  color: white;
   border: none;
   border-radius: 20px;
   height: 100%;
   padding: 0 30px;
   cursor: pointer;
+}
+
+.contact-us i{
   color: white;
 }
 
-.contact-us{
+.footer{
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 5px;
+  justify-content: space-between;
+  width: 100%;
+
+  color: white;
 }
-.contact-us div{
+
+.footer img{
+  width: 200px;
+}
+.footer p{
   font-size: 12px;
 }
-.contact-us i{
-  font-size: 24px;
+
+.footer .social-media{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+
+.footer .social-media i{
+  color:white;
+}
+
+.footer .title{
+  font-size: 16px;
+}
+
+.footer .information{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.list p{
+  transform: translatex(-16px);
+}
+
+.list li{
+  font-size: 12px;
 }
