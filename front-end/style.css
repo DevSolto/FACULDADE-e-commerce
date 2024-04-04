@@ -432,3 +432,20 @@ footer .contact button{
   justify-content: center;
   gap: 3px;
 }
+
+.desativado{
+  padding: 8px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+.ativado{
+  padding: 8px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: var(--blue);
+  color: white;
+}
