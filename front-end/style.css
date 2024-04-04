@@ -419,3 +419,16 @@ footer .contact button{
 .list li{
   font-size: 12px;
 }
+
+#quant-cart{
+  display:flex;
+  align-self: center;
+  justify-content: center;
+  min-width: 10px;
+}
+.cart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}

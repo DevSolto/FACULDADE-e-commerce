@@ -1,589 +1,592 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <script
-      src="https://kit.fontawesome.com/fa03cb6e5b.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="/front-end/script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
 
-    <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/fa03cb6e5b.js" crossorigin="anonymous"></script>
+  <script src="/front-end/script.js"></script>
 
-    <title>Electron</title>
-  </head>
+  <link rel="stylesheet" href="style.css" />
 
-  <body>
-    <header>
-      <section class="information">
-        <div class="container">
-          <p>Precisa de ajuda? fale conosco (99) 9 9999-9999</p>
-          <div class="functionalities">
-            <a>
-              <i class="fa-solid fa-location-dot"></i>
-              Lojas perto de você!
-            </a>
-            <a>
-              <i class="fa-solid fa-truck-fast"></i>
-              Acompanhe sua encomenda.
-            </a>
-          </div>
-        </div>
-      </section>
-      <section class="header">
-        <div class="container">
-          <div>
-            <img src="/front-end/assets/logo.png" alt="Logo da Electron" />
-            <form action="" class="search">
-              <input type="text" placeholder="Pesquisar" />
-              <button type="submit">
-                <i class="fa-solid fa-magnifying-glass"></i>
-              </button>
-            </form>
-          </div>
-          <div class="functionalities">
-            <a>
-              <i class="fa-solid fa-user"></i>
-              Entrar
-            </a>
-            <a>
-              <i class="fa-solid fa-heart"></i>
-              Favoritos
-            </a>
-            <a>
-              <i class="fa-solid fa-cart-shopping"></i>
-              Carrinho
-            </a>
-          </div>
-        </div>
-      </section>
-      <section class="menu">
-        <div class="container">
-          <nav>
-            <a href="">Categorias</a>
-            <a href="">Ofertas do dia</a>
-            <a href="">Histórico</a>
-            <a href="">Catalogo</a>
-          </nav>
-        </div>
-      </section>
-    </header>
-    <section class="path">
+  <title>Electron</title>
+</head>
+
+<body>
+  <header>
+    <section class="information">
       <div class="container">
-        <p>Produtos > todas as categorias</p>
+        <p>Precisa de ajuda? fale conosco (99) 9 9999-9999</p>
+        <div class="functionalities">
+          <a>
+            <i class="fa-solid fa-location-dot"></i>
+            Lojas perto de você!
+          </a>
+          <a>
+            <i class="fa-solid fa-truck-fast"></i>
+            Acompanhe sua encomenda.
+          </a>
+        </div>
       </div>
     </section>
-    <section class="content">
+    <section class="header">
       <div class="container">
-        <aside>
-          <div class="filter">
-            <div class="title">
-              <p>Categoria</p>
-              <p class="reset">Reset</p>
-            </div>
-            <div class="itens">
-              <div class="item">
-                <div>
-                  <input type="checkbox" checked name="" id="" />
-                  Todas as categorias
-                </div>
-                <span>10</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Tablet
-                </div>
-                <span>6</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Laptop
-                </div>
-                <span>2</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Headphones
-                </div>
-                <span>4</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Console
-                </div>
-                <span>6</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Outras
-                </div>
-                <span>15</span>
-              </div>
-            </div>
-          </div>
-          <div class="divisor"></div>
-          <div class="filter">
-            <div class="title">
-              <p>Marca</p>
-              <p class="reset">Reset</p>
-            </div>
-            <div class="itens">
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Todas as marcas
-                </div>
-                <span>10</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Xiaomi
-                </div>
-                <span>10</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Samsung
-                </div>
-                <span>10</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Apple
-                </div>
-                <span>10</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  LG
-                </div>
-                <span>10</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Accer
-                </div>
-                <span>10</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Outras
-                </div>
-                <span>10</span>
-              </div>
-            </div>
-          </div>
-          <div class="divisor"></div>
-          <div class="filter">
-            <div class="title">
-              <p>Disponibilidade</p>
-              <p class="reset">Reset</p>
-            </div>
-            <div class="itens">
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Todas as disponibilidades
-                </div>
-                <span>10</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Em estoque
-                </div>
-                <span>10</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Pronta entrega
-                </div>
-                <span>10</span>
-              </div>
-            </div>
-          </div>
-          <div class="divisor"></div>
-          <div class="filter">
-            <div class="title">
-              <p>Preço</p>
-              <p class="reset">Reset</p>
-            </div>
-            <div class="itens">
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Até R$ 650
-                </div>
-                <span>10</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  R$650 a R$1.000
-                </div>
-                <span>10</span>
-              </div>
-              <div class="item">
-                <div>
-                  <input type="checkbox" name="" id="" />
-                  Mais de R$1.000
-                </div>
-                <span>10</span>
-              </div>
-              <div class="item">
-                <form action="">
-                  <input type="number" name="" id="" placeholder="Mínimo" />
-                  -
-                  <input type="number" name="" id="" placeholder="Máximo" />
-                  <button type="submit">
-                    <i class="fa-solid fa-arrow-right"></i>
-                  </button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </aside>
-        <main>
-          <div class="product">
-            <button onclick="favorite('product1')" class="favorite">
-              <i id="product1" class="fa-regular fa-heart"></i>
+        <div>
+          <img src="/front-end/assets/logo.png" alt="Logo da Electron" />
+          <form action="" class="search">
+            <input type="text" placeholder="Pesquisar" />
+            <button type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
             </button>
-            <a href="product.html">
-              <div class="image">
-                <img src="/front-end/assets/notebook1.png" alt="" />
-              </div>
-              <h3>Notebook Dell Inspiron Gaming 15.6</h3>
-              <div class="stars">
-                <p>4,6</p>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-              </div>
-              <div class="price">
-                <p class="old-price">R$7.999</p>
-                <p class="current-price">
-                  R$6.307
-                  <span
-                    >21% OFF <br />
-                    em 10x R$630,74 sem juros</span
-                  >
-                </p>
-              </div>
-            </a>
-          </div>
-          <div class="product">
-            <button onclick="favorite('product2')" class="favorite">
-              <i id="product2" class="fa-regular fa-heart"></i>
-            </button>
-            <a>
-              <div class="image">
-                <img src="/front-end/assets/mouse1.png" alt="" />
-              </div>
-              <h3>Mouse Gamer Rgb Black Iron 1622 Letron</h3>
-              <div class="stars">
-                <p>4,6</p>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-              </div>
-              <div class="price">
-                <p class="old-price">R$250</p>
-                <p class="current-price">
-                  R$150
-                  <span
-                    >21% OFF <br />
-                    em 10x R$15,00 sem juros</span
-                  >
-                </p>
-              </div>
-            </a>
-          </div>
-          <a href="/front-end/product.html" class="product">
-            <button onclick="favorite('product3')" class="favorite">
-              <i id="product3" class="fa-regular fa-heart"></i>
-            </button>
-            <div class="image">
-              <img src="/front-end/assets/gabinete1.jpg" alt="" />
-            </div>
-            <h3>Gabinete Gamer Rise Mode Galaxy Glass Standard</h3>
-            <div class="stars">
-              <p>4,6</p>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <div class="price">
-              <p class="old-price">R$623,52</p>
-              <p class="current-price">
-                R$529,99
-                <span
-                  >15% OFF <br />
-                  em 10x R$62,35 sem juros</span
-                >
-              </p>
-            </div>
+          </form>
+        </div>
+        <div class="functionalities">
+          <a>
+            <i class="fa-solid fa-user"></i>
+            Entrar
           </a>
-          <a class="product">
-            <button onclick="favorite('product4')" class="favorite">
-              <i id="product4" class="fa-regular fa-heart"></i>
-            </button>
-            <div class="image">
-              <img src="/front-end/assets/mouse2.webp" alt="" />
-            </div>
-            <h3>Mouse Gamer Redragon Storm Elite, 16000DPI</h3>
-            <div class="stars">
-              <p>5</p>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-            <div class="price">
-              <p class="old-price">R$249,00</p>
-              <p class="current-price">
-                R$231,57
-                <span
-                  >5% OFF <br />
-                  em 10x R$24,90 sem juros</span
-                >
-              </p>
-            </div>
+          <a>
+            <i class="fa-solid fa-heart"></i>
+            Favoritos
           </a>
-          <a class="product">
-            <button onclick="favorite('product5')" class="favorite">
-              <i id="product5" class="fa-regular fa-heart"></i>
-            </button>
-            <div class="image">
-              <img src="/front-end/assets/mesa1.webp" alt="" />
-            </div>
-            <h3>Mesa Gamer Cougar E-Mars 150 - 3M1503SB.0001</h3>
-            <div class="stars">
-              <p>4,6</p>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <div class="price">
-              <p class="old-price">R$6.010,33</p>
-              <p class="current-price">
-                R$5.108,78
-                <span
-                  >21% OFF <br />
-                  em 10x R$601,03 sem juros</span
-                >
-              </p>
-            </div>
+          <a class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p id="quant-cart">0</p>
+            Carrinho
           </a>
-          <a class="product">
-            <button onclick="favorite('product6')" class="favorite">
-              <i id="product6" class="fa-regular fa-heart"></i>
-            </button>
-            <div class="image">
-              <img src="/front-end/assets/cadeira1.webp" alt="" />
-            </div>
-            <h3>Cadeira Gamer Xperience Ultra Vermelha, Base Giratória.</h3>
-            <div class="stars">
-              <p>4,6</p>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <div class="price">
-              <p class="old-price">R$1.299</p>
-              <p class="current-price">
-                R$642
-                <span
-                  >12% OFF <br />
-                  em 10x R$72,99 sem juros</span
-                >
-              </p>
-            </div>
-          </a>
-          <a class="product">
-            <button onclick="favorite('product7')" class="favorite">
-              <i id="product7" class="fa-regular fa-heart"></i>
-            </button>
-            <div class="image">
-              <img src="/front-end/assets/processador1.jpg" alt="" />
-            </div>
-            <h3>Processador Intel Core i9-11900K 11ª Geração, 3.5 GHz.</h3>
-            <div class="stars">
-              <p>4,6</p>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <div class="price">
-              <p class="old-price">R$2.777</p>
-              <p class="current-price">
-                R$2.199
-                <span
-                  >21% OFF <br />
-                  em 10x R$244,44 sem juros</span
-                >
-              </p>
-            </div>
-          </a>
-          <a class="product">
-            <button onclick="favorite('product8')" class="favorite">
-              <i id="product8" class="fa-regular fa-heart"></i>
-            </button>
-            <div class="image">
-              <img src="/front-end/assets/placa1.webp" alt="" />
-            </div>
-            <h3>Placa de Vídeo GeForce RTX 4070 Ti 12GB OC XLR8 PNY</h3>
-            <div class="stars">
-              <p>4,6</p>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <div class="price">
-              <p class="old-price">R$6.199</p>
-              <p class="current-price">
-                R$5.827
-                <span
-                  >21% OFF <br />
-                  em 10x R$619,90 sem juros</span
-                >
-              </p>
-            </div>
-          </a>
-          <a class="product">
-            <button onclick="favorite('product9')" class="favorite">
-              <i id="product9" class="fa-regular fa-heart"></i>
-            </button>
-            <div class="image">
-              <img src="/front-end/assets/mousepad1.jpg" alt="" />
-            </div>
-            <h3>Mousepad Gamer Marvo, XL, RGB, Control - MG010</h3>
-            <div class="stars">
-              <p>4,6</p>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <div class="price">
-              <p class="old-price">R$179</p>
-              <p class="current-price">
-                R$100
-                <span
-                  >21% OFF <br />
-                  em 10x R$10,74 sem juros</span
-                >
-              </p>
-            </div>
-          </a>
-        </main>
+        </div>
       </div>
     </section>
-    <footer>
+    <section class="menu">
       <div class="container">
-        <div class="contact">
-          <div>
-            <p>Se inscreva na nossa newsletter</p>
-            <form action="">
-              <input type="text" name="" id="" placeholder="E-mail" />
-              <button type="submit">
-                <i class="fa-solid fa-paper-plane"></i>
-              </button>
-            </form>
+        <nav>
+          <a href="">Categorias</a>
+          <a href="">Ofertas do dia</a>
+          <a href="">Histórico</a>
+          <a href="">Catalogo</a>
+        </nav>
+      </div>
+    </section>
+  </header>
+  <section class="path">
+    <div class="container">
+      <p>Produtos > todas as categorias</p>
+    </div>
+  </section>
+  <section class="content">
+    <div class="container">
+      <aside>
+        <div class="filter">
+          <div class="title">
+            <p>Categoria</p>
+            <p class="reset">Reset</p>
           </div>
-          <div class="contact-us">
-            <i class="fa-solid fa-headphones-simple"></i>
-            <p>
-              Ligue para: <br />
-              +55 (99) 9 9999-9999
+          <div class="itens">
+            <div class="item">
+              <div>
+                <input type="checkbox" checked name="" id="" />
+                Todas as categorias
+              </div>
+              <span>10</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Tablet
+              </div>
+              <span>6</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Laptop
+              </div>
+              <span>2</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Headphones
+              </div>
+              <span>4</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Console
+              </div>
+              <span>6</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Outras
+              </div>
+              <span>15</span>
+            </div>
+          </div>
+        </div>
+        <div class="divisor"></div>
+        <div class="filter">
+          <div class="title">
+            <p>Marca</p>
+            <p class="reset">Reset</p>
+          </div>
+          <div class="itens">
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Todas as marcas
+              </div>
+              <span>10</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Xiaomi
+              </div>
+              <span>10</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Samsung
+              </div>
+              <span>10</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Apple
+              </div>
+              <span>10</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                LG
+              </div>
+              <span>10</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Accer
+              </div>
+              <span>10</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Outras
+              </div>
+              <span>10</span>
+            </div>
+          </div>
+        </div>
+        <div class="divisor"></div>
+        <div class="filter">
+          <div class="title">
+            <p>Disponibilidade</p>
+            <p class="reset">Reset</p>
+          </div>
+          <div class="itens">
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Todas as disponibilidades
+              </div>
+              <span>10</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Em estoque
+              </div>
+              <span>10</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Pronta entrega
+              </div>
+              <span>10</span>
+            </div>
+          </div>
+        </div>
+        <div class="divisor"></div>
+        <div class="filter">
+          <div class="title">
+            <p>Preço</p>
+            <p class="reset">Reset</p>
+          </div>
+          <div class="itens">
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Até R$ 650
+              </div>
+              <span>10</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                R$650 a R$1.000
+              </div>
+              <span>10</span>
+            </div>
+            <div class="item">
+              <div>
+                <input type="checkbox" name="" id="" />
+                Mais de R$1.000
+              </div>
+              <span>10</span>
+            </div>
+            <div class="item">
+              <form action="">
+                <input type="number" name="" id="" placeholder="Mínimo" />
+                -
+                <input type="number" name="" id="" placeholder="Máximo" />
+                <button type="submit">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <main>
+        <div class="product">
+          <button onclick="favorite('product1')" class="favorite">
+            <i id="product1" class="fa-regular fa-heart"></i>
+          </button>
+          
+            <div class="image">
+              <img src="/front-end/assets/notebook1.png" alt="" />
+            </div>
+            <h3>Notebook Dell Inspiron Gaming 15.6</h3>
+          </a>
+          <div class="stars">
+            <p>4,6</p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <div class="price">
+            <p class="old-price">R$7.999</p>
+            <p class="current-price">
+              R$6.307
+              <span>21% OFF <br />
+                em 10x R$630,74 sem juros</span>
+            </p>
+          </div>
+          </a>
+        </div>
+        <div class="product">
+          <button onclick="favorite('product2')" class="favorite">
+            <i id="product2" class="fa-regular fa-heart"></i>
+          </button>
+          
+            <div class="image">
+              <img src="/front-end/assets/mouse1.png" alt="" />
+            </div>
+            <h3>Mouse Gamer Rgb Black Iron 1622 Letron</h3>
+          </a>
+          <div class="stars">
+            <p>4,6</p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <div class="price">
+            <p class="old-price">R$250</p>
+            <p class="current-price">
+              R$150
+              <span>21% OFF <br />
+                em 10x R$15,00 sem juros</span>
             </p>
           </div>
         </div>
-        <div class="footer">
-          <div class="information">
-            <img src="/front-end/assets/logo.png" alt="" />
-            <p>
-              R. do Pombal, 57 - Santo Amaro, <br />
-              Recife - PE, 50100-170
+        <div class="product">
+          <button onclick="favorite('product3')" class="favorite">
+            <i id="product3" class="fa-regular fa-heart"></i>
+          </button>
+          
+          <div class="image">
+            <img src="/front-end/assets/gabinete1.jpg" alt="" />
+          </div>
+          <h3>Gabinete Gamer Rise Mode Galaxy Glass Standard</h3>
+          </a>
+          <div class="stars">
+            <p>4,6</p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <div class="price">
+            <p class="old-price">R$623,52</p>
+            <p class="current-price">
+              R$529,99
+              <span>15% OFF <br />
+                em 10x R$62,35 sem juros</span>
             </p>
-            <div class="separator"></div>
-            <div class="social-media">
-              <a href="">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-facebook-f"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-whatsapp"></i>
-              </a>
-            </div>
-          </div>
-          <div class="list">
-            <p class="title">Encontrar produto</p>
-            <ul>
-              <li>Tablet</li>
-              <li>Laptop</li>
-              <li>Headphones</li>
-              <li>Console</li>
-            </ul>
-          </div>
-          <div class="list">
-            <p class="title">Buscar ajuda</p>
-            <ul>
-              <li>Sobe nos</li>
-              <li>Fale conosco</li>
-              <li>Politica de devolução</li>
-              <li>Politica de privacidade</li>
-            </ul>
-          </div>
-          <div class="list">
-            <p class="title">Sobre nos</p>
-            <ul>
-              <li>Noticias</li>
-              <li>Serviços</li>
-              <li>Atendimento ao consumidor</li>
-              <li>FAC</li>
-            </ul>
           </div>
         </div>
+        <div class="product">
+          <button onclick="favorite('product4')" class="favorite">
+            <i id="product4" class="fa-regular fa-heart"></i>
+          </button>
+          
+
+          <div class="image">
+            <img src="/front-end/assets/mouse2.webp" alt="" />
+          </div>
+          <h3>Mouse Gamer Redragon Storm Elite, 16000DPI</h3>
+          </a>
+          <div class="stars">
+            <p>5</p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="price">
+            <p class="old-price">R$249,00</p>
+            <p class="current-price">
+              R$231,57
+              <span>5% OFF <br />
+                em 10x R$24,90 sem juros</span>
+            </p>
+          </div>
+        </div>
+        <div class="product">
+          <button onclick="favorite('product5')" class="favorite">
+            <i id="product5" class="fa-regular fa-heart"></i>
+          </button>
+          
+
+          <div class="image">
+            <img src="/front-end/assets/mesa1.webp" alt="" />
+          </div>
+          <h3>Mesa Gamer Cougar E-Mars 150 - 3M1503SB.0001</h3>
+          </a>
+          <div class="stars">
+            <p>4,6</p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <div class="price">
+            <p class="old-price">R$6.010,33</p>
+            <p class="current-price">
+              R$5.108,78
+              <span>21% OFF <br />
+                em 10x R$601,03 sem juros</span>
+            </p>
+          </div>
+        </div>
+        <div class="product">
+          <button onclick="favorite('product6')" class="favorite">
+            <i id="product6" class="fa-regular fa-heart"></i>
+          </button>
+          
+
+          <div class="image">
+            <img src="/front-end/assets/cadeira1.webp" alt="" />
+          </div>
+          <h3>Cadeira Gamer Xperience Ultra Vermelha, Base Giratória.</h3>
+          </a>
+          <div class="stars">
+            <p>4,6</p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <div class="price">
+            <p class="old-price">R$1.299</p>
+            <p class="current-price">
+              R$642
+              <span>12% OFF <br />
+                em 10x R$72,99 sem juros</span>
+            </p>
+          </div>
+        </div>
+        <div class="product">
+          <button onclick="favorite('product7')" class="favorite">
+            <i id="product7" class="fa-regular fa-heart"></i>
+          </button>
+          
+
+          <div class="image">
+            <img src="/front-end/assets/processador1.jpg" alt="" />
+          </div>
+          <h3>Processador Intel Core i9-11900K 11ª Geração, 3.5 GHz.</h3>
+          </a>
+
+          <div class="stars">
+            <p>4,6</p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <div class="price">
+            <p class="old-price">R$2.777</p>
+            <p class="current-price">
+              R$2.199
+              <span>21% OFF <br />
+                em 10x R$244,44 sem juros</span>
+            </p>
+          </div>
+        </div>
+        <div class="product">
+          <button onclick="favorite('product8')" class="favorite">
+            <i id="product8" class="fa-regular fa-heart"></i>
+          </button>
+          
+
+          <div class="image">
+            <img src="/front-end/assets/placa1.webp" alt="" />
+          </div>
+          <h3>Placa de Vídeo GeForce RTX 4070 Ti 12GB OC XLR8 PNY</h3>
+          </a>
+          <div class="stars">
+            <p>4,6</p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <div class="price">
+            <p class="old-price">R$6.199</p>
+            <p class="current-price">
+              R$5.827
+              <span>21% OFF <br />
+                em 10x R$619,90 sem juros</span>
+            </p>
+          </div>
+        </div>
+        <div class="product">
+          <button onclick="favorite('product9')" class="favorite">
+            <i id="product9" class="fa-regular fa-heart"></i>
+          </button>
+          
+
+          <div class="image">
+            <img src="/front-end/assets/mousepad1.jpg" alt="" />
+          </div>
+          <h3>Mousepad Gamer Marvo, XL, RGB, Control - MG010</h3>
+          </a>
+          <div class="stars">
+            <p>4,6</p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <div class="price">
+            <p class="old-price">R$179</p>
+            <p class="current-price">
+              R$100
+              <span>21% OFF <br />
+                em 10x R$10,74 sem juros</span>
+            </p>
+          </div>
+        </div>
+      </main>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="contact">
+        <div>
+          <p>Se inscreva na nossa newsletter</p>
+          <form action="">
+            <input type="text" name="" id="" placeholder="E-mail" />
+            <button type="submit">
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+        <div class="contact-us">
+          <i class="fa-solid fa-headphones-simple"></i>
+          <p>
+            Ligue para: <br />
+            +55 (99) 9 9999-9999
+          </p>
+        </div>
       </div>
-    </footer>
-  </body>
+      <div class="footer">
+        <div class="information">
+          <img src="/front-end/assets/logo.png" alt="" />
+          <p>
+            R. do Pombal, 57 - Santo Amaro, <br />
+            Recife - PE, 50100-170
+          </p>
+          <div class="separator"></div>
+          <div class="social-media">
+            <a href="">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+        <div class="list">
+          <p class="title">Encontrar produto</p>
+          <ul>
+            <li>Tablet</li>
+            <li>Laptop</li>
+            <li>Headphones</li>
+            <li>Console</li>
+          </ul>
+        </div>
+        <div class="list">
+          <p class="title">Buscar ajuda</p>
+          <ul>
+            <li>Sobe nos</li>
+            <li>Fale conosco</li>
+            <li>Politica de devolução</li>
+            <li>Politica de privacidade</li>
+          </ul>
+        </div>
+        <div class="list">
+          <p class="title">Sobre nos</p>
+          <ul>
+            <li>Noticias</li>
+            <li>Serviços</li>
+            <li>Atendimento ao consumidor</li>
+            <li>FAC</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
